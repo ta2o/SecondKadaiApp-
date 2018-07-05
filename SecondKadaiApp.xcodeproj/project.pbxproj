@@ -14,6 +14,7 @@
 		EF1AE4D020EC5B38006E2413 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1AE4CE20EC5B38006E2413 /* LaunchScreen.storyboard */; };
 		EF1AE4DB20EC5B38006E2413 /* SecondKadaiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1AE4DA20EC5B38006E2413 /* SecondKadaiAppTests.swift */; };
 		EF1AE4E620EC5B38006E2413 /* SecondKadaiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1AE4E520EC5B38006E2413 /* SecondKadaiAppUITests.swift */; };
+		EF1AE4F420EC5E06006E2413 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1AE4F320EC5E06006E2413 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		EF1AE4E120EC5B38006E2413 /* SecondKadaiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecondKadaiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF1AE4E520EC5B38006E2413 /* SecondKadaiAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondKadaiAppUITests.swift; sourceTree = "<group>"; };
 		EF1AE4E720EC5B38006E2413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF1AE4F320EC5E06006E2413 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				EF1AE4CC20EC5B38006E2413 /* Assets.xcassets */,
 				EF1AE4CE20EC5B38006E2413 /* LaunchScreen.storyboard */,
 				EF1AE4D120EC5B38006E2413 /* Info.plist */,
+				EF1AE4F320EC5E06006E2413 /* ResultViewController.swift */,
 			);
 			path = SecondKadaiApp;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				EF1AE4C820EC5B36006E2413 /* ViewController.swift in Sources */,
 				EF1AE4C620EC5B36006E2413 /* AppDelegate.swift in Sources */,
+				EF1AE4F420EC5E06006E2413 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2DJ792M98;
 				INFOPLIST_FILE = SecondKadaiApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,6 +453,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2DJ792M98;
 				INFOPLIST_FILE = SecondKadaiApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
