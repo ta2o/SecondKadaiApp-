@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,10 +15,10 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SecondKadaiApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZPh-dq-lcZ">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZPh-dq-lcZ">
                                 <rect key="frame" x="142" y="462" width="91" height="45"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <state key="normal" title="Button">
@@ -29,8 +29,8 @@
                                     <segue destination="D0T-yt-Ghd" kind="show" id="Zn2-xC-hTR"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MN6-Qw-dpc">
-                                <rect key="frame" x="75" y="327" width="224.5" height="30"/>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MN6-Qw-dpc">
+                                <rect key="frame" x="74.999999999999986" y="327" width="224.66666666666663" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -50,6 +50,7 @@
                             <constraint firstItem="vIr-Ha-gpg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75.25" id="Mx1-ay-GGC"/>
                             <constraint firstItem="MN6-Qw-dpc" firstAttribute="top" secondItem="vIr-Ha-gpg" secondAttribute="bottom" constant="20" id="Rsq-Xu-ddL"/>
                             <constraint firstItem="MN6-Qw-dpc" firstAttribute="top" secondItem="vIr-Ha-gpg" secondAttribute="bottom" constant="20" id="Sbm-g6-aSf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ZPh-dq-lcZ" secondAttribute="bottom" constant="160" id="TmF-TP-vdJ"/>
                             <constraint firstItem="ZPh-dq-lcZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="142" id="Uqp-il-l83"/>
                             <constraint firstItem="vIr-Ha-gpg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="VaE-1e-EsU"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MN6-Qw-dpc" secondAttribute="trailing" constant="75.25" id="XTX-CO-lwK"/>
@@ -73,17 +74,17 @@
             <objects>
                 <viewController id="D0T-yt-Ghd" customClass="ResultViewController" customModule="SecondKadaiApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="r0v-mG-ZLs">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kDN-KT-KQm">
-                                <rect key="frame" x="40" y="232" width="294.5" height="27"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kDN-KT-KQm">
+                                <rect key="frame" x="40" y="244" width="294.66666666666669" height="27"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T8l-1x-duw">
-                                <rect key="frame" x="145" y="467" width="84.5" height="45"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T8l-1x-duw">
+                                <rect key="frame" x="145" y="471" width="84.666666666666686" height="132"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <state key="normal" title="戻る">
                                     <color key="titleColor" red="0.89410621761658027" green="0.88122948959450709" blue="0.38861865654845396" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -95,6 +96,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="T8l-1x-duw" firstAttribute="top" secondItem="kDN-KT-KQm" secondAttribute="bottom" constant="200" id="QF3-ia-Ebr"/>
+                            <constraint firstItem="Mxt-Q1-WZT" firstAttribute="bottom" secondItem="T8l-1x-duw" secondAttribute="bottom" constant="175" id="Sje-Fy-lYQ"/>
+                            <constraint firstItem="kDN-KT-KQm" firstAttribute="top" secondItem="Mxt-Q1-WZT" secondAttribute="top" constant="200" id="YRs-MD-0nc"/>
                             <constraint firstItem="kDN-KT-KQm" firstAttribute="leading" secondItem="Mxt-Q1-WZT" secondAttribute="leading" constant="40.5" id="amF-Ez-N07"/>
                             <constraint firstItem="Mxt-Q1-WZT" firstAttribute="trailing" secondItem="kDN-KT-KQm" secondAttribute="trailing" constant="40.5" id="jF9-Tp-Ibn"/>
                             <constraint firstItem="Mxt-Q1-WZT" firstAttribute="trailing" secondItem="T8l-1x-duw" secondAttribute="trailing" constant="145.5" id="k9P-ed-6nl"/>
